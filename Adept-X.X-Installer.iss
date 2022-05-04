@@ -18,10 +18,10 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName=C:\Adept\X.X
 DefaultGroupName={#MyFullAppName}
 AllowNoIcons=yes
-LicenseFile=C:\Users\isaac\Projects\Adept\LICENSE
-OutputDir=C:\Users\isaac\Projects\AdeptInstaller
+LicenseFile=__STAGING_AREA__\LICENSE
+OutputDir=__OUTPUT_DIRECTORY__
 OutputBaseFilename=Adept-X.X-Installer
-SetupIconFile=C:\Users\isaac\Projects\AdeptIDE\resource\favicon.ico
+SetupIconFile=__FAVICON_DIRECTORY__\favicon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -40,7 +40,7 @@ begin
     Result := True;
     exit;
   end;
-  // look for the path with leading and trailing semicolon
+  // Look for the path with leading and trailing semicolon
   // Pos() returns 0 if not found
   Result := Pos(';' + Param + ';', ';' + OrigPath + ';') = 0;
 end;
@@ -70,4 +70,3 @@ Source: "__STAGING_AREA__\import\*"; DestDir: "{app}\import"; Flags: ignoreversi
 
 [Icons]
 Name: "{group}\{#MyFullAppName}"; Filename: "{app}\{#MyAppExeName}"
-
