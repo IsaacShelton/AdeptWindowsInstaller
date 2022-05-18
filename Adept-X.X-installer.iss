@@ -59,6 +59,7 @@ Source: "__STAGING_AREA__\adeptX-X.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\adept.config"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\crt2.o"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\crtbegin.o"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\curl-ca-bundle.crt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\ld.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libdep.a"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libgcc_s_seh-1.dll"; DestDir: "{app}"; Flags: ignoreversion
