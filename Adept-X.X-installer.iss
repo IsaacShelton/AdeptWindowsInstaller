@@ -64,7 +64,8 @@ Source: "__STAGING_AREA__\libdep.a"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libgcc_s_seh-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libstdc++-6.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libwinpthread-1.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "__STAGING_AREA__\libcurl-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libcurl-4.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libzstd.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libmsvcrt.a"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\bin\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "__STAGING_AREA__\libexec\*"; DestDir: "{app}\libexec"; Flags: ignoreversion recursesubdirs createallsubdirs
