@@ -67,6 +67,20 @@ Source: "__STAGING_AREA__\libwinpthread-1.dll"; DestDir: "{app}"; Flags: ignorev
 Source: "__STAGING_AREA__\libcurl-4.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libzstd.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libmsvcrt.a"; DestDir: "{app}"; Flags: ignoreversion
+
+; MSYS2 Shenanigans
+Source: "__STAGING_AREA__\libbrotlicommon.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libbrotlidec.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libcrypto-3-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libiconv-2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libidn2-0.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libintl-8.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libnghttp2-14.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libnghttp3-9.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libpsl-5.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libssh2-1.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libssl-3-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+
 Source: "__STAGING_AREA__\bin\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "__STAGING_AREA__\libexec\*"; DestDir: "{app}\libexec"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "__STAGING_AREA__\include\*"; DestDir: "{app}\include"; Flags: ignoreversion recursesubdirs createallsubdirs
