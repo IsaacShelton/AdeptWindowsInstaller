@@ -80,6 +80,8 @@ Source: "__STAGING_AREA__\libnghttp3-9.dll"; DestDir: "{app}"; Flags: ignorevers
 Source: "__STAGING_AREA__\libpsl-5.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libssh2-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "__STAGING_AREA__\libssl-3-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\libunistring-5.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "__STAGING_AREA__\zlib1.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 Source: "__STAGING_AREA__\bin\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "__STAGING_AREA__\libexec\*"; DestDir: "{app}\libexec"; Flags: ignoreversion recursesubdirs createallsubdirs
